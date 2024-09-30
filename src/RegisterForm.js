@@ -19,9 +19,6 @@ const RegisterForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // You can send formData to your backend or display it in console
-    console.log('Form Submitted:', formData);
-    // Clear form fields after submission (optional)
     setFormData({ name: '', address: '' });
     const userData = formData
     const url = 'http://localhost:4000/registeruser'
