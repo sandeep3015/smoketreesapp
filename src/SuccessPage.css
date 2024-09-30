@@ -1,0 +1,39 @@
+.registered-container {
+    height: 250px;
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.success-icon {
+    color: rgb(27, 211, 17);
+    font-size: large;
+    outline: none;
+}
+
+.register-text {
+    color: white;
+    font-size: 30px;
+}
+
+.back-button {
+    height: 30px;
+    width: 100px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
